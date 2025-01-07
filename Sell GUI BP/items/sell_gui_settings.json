@@ -1,0 +1,11 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sellgui:sell_gui_settings"
+		},
+		"components": {
+			"minecraft:icon": "sell_gui_settings"
+		}
+	}
+}

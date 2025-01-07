@@ -1,0 +1,44 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "TheOlamicOrange"
+        ]
+    },
+    "header": {
+      "name": "Sell GUI",
+      "description": "Customizable Sell GUI for items",
+      "min_engine_version": [1, 21, 0],
+      "uuid": "ac92f303-95b6-48ed-8a73-332fd8c2a0e2",
+      "version": [1, 0, 0]
+    },
+    "modules": [
+      {
+        "type": "data",
+        "uuid": "2ac09c63-8184-4e34-af05-5ca64ca367e3",
+        "version": [1, 0, 0]
+      },
+      {
+        "type": "script",
+        "language": "javascript",
+        "uuid": "5bde5f1e-4171-4566-a13d-9cd131f88760",
+        "entry": "scripts/main.js",
+        "version": [1, 0, 0]
+      }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.17.0-beta"
+      },
+      {
+        "module_name": "@minecraft/server-ui",
+        "version": "1.2.0"
+      },
+      {
+        "uuid": "cbae14d8-0a87-4571-ab5c-d9563170a870",
+			  "version": [1,0,0]
+      }
+    ]
+  }
+    
